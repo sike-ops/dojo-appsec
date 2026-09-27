@@ -1,0 +1,12 @@
+{
+  "id": "{{ID}}",
+  "slug": "{{SLUG}}",
+  "name": "{{NAME}}",
+  "language": "{{LANGUAGE}}",
+  "archetype": "{{ARCHETYPE}}",
+  "mode": "{{MODE}}",
+  "difficulty": "{{DIFFICULTY}}",
+  "createdAt": "{{DATE}}",
+  "status": "scaffolded",
+  "docker": {{DOCKER}}
+}

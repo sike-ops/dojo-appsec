@@ -1,0 +1,31 @@
+# Local study material (not part of the factory)
+*.pdf
+output.txt
+
+# Secrets
+**/.env
+!**/.env.example
+
+# Language / build artifacts
+**/node_modules/
+**/dist/
+**/build/
+**/__pycache__/
+**/.venv/
+**/venv/
+**/target/
+**/*.o
+**/*.out
+**/.pytest_cache/
+
+# ZK challenges ship a committed artifact — never ignore these
+!challenges/**/artifact/
+!challenges/**/artifact/**
+
+# Challenge runtime state
+**/data/
+**/uploads/
+**/storage/
+**/*.db
+**/*.sqlite
+**/*.sqlite3
